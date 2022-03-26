@@ -1,0 +1,92 @@
+export const data = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "23.33",
+    category: "men",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/3785094/pexels-photo-3785094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "29.43",
+    category: "men",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "20.30",
+    category: "men",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "43.53",
+    category: "men",
+  },
+  {
+    id: 5,
+    img: "https://images.pexels.com/photos/38270/son-in-law-cufflinks-black-and-white-bow-tie-38270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "30.96",
+    category: "men",
+  },
+  {
+    id: 6,
+    img: "https://images.pexels.com/photos/3178767/pexels-photo-3178767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "38.55",
+    category: "men",
+  },
+  {
+    id: 7,
+    img: "https://images.pexels.com/photos/7914437/pexels-photo-7914437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "40.41",
+    category: "women",
+  },
+  {
+    id: 8,
+    img: "https://images.pexels.com/photos/1096849/pexels-photo-1096849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "19.53",
+    category: "men",
+  },
+  {
+    id: 9,
+    img: "https://images.pexels.com/photos/10040257/pexels-photo-10040257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "30.39",
+    category: "women",
+  },
+  {
+    id: 10,
+    img: "https://images.pexels.com/photos/10955553/pexels-photo-10955553.jpeg?auto=compress&cs=tinysrgb&w=600",
+    price: "53.61",
+    category: "women",
+  },
+  {
+    id: 11,
+    img: "https://images.pexels.com/photos/9656429/pexels-photo-9656429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "20.11",
+    category: "child",
+  },
+  {
+    id: 12,
+    img: "https://images.pexels.com/photos/8272074/pexels-photo-8272074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "40.10",
+    category: "women",
+  },
+  {
+    id: 13,
+    img: "https://images.pexels.com/photos/2923922/pexels-photo-2923922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "40.80",
+    category: "men",
+  },
+  {
+    id: 14,
+    img: "https://images.pexels.com/photos/6606240/pexels-photo-6606240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "30.10",
+    category: "child",
+  },
+  {
+    id: 15,
+    img: "https://images.pexels.com/photos/7869697/pexels-photo-7869697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "35.50",
+    category: "men",
+  },
+];
