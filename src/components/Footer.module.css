@@ -1,0 +1,35 @@
+.footer {
+  background-image: url("https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 23rem;
+  width: 85vw;
+  position: relative;
+  margin: 0 auto;
+}
+
+footer h2 {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 3rem;
+  display: inline-block;
+  margin: 2rem auto;
+  margin-top: 5rem;
+}
+
+.text {
+  width: 100vw;
+  height: 2rem;
+  background-color: #e61515;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.footer button:hover {
+  transform: scale(1.1);
+}
