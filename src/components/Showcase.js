@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { data } from "./data";
+import Nav from "./Nav";
+import Footer from "./Footer";
 import classes from "./Showcase.module.css";
 
 const Showcase = () => {
@@ -9,16 +11,23 @@ const Showcase = () => {
 
   return (
     <div>
-      Showcase
-      {showData.map((show) => {
-        return (
-          <div key={show.id} className={classes.showcase}>
-            <h3>{show.category}</h3>
-            <img src={show.img} alt={show.category} />
-            <p>{show.price}</p>
-          </div>
-        );
-      })}
+      <Nav />
+      <div className={classes.parent}>
+        {showData.map((show) => {
+          return (
+            <div key={show.id} className={classes.showcase}>
+              <div>
+                <img src={show.img} alt={show.category} />
+                <div className={classes.showcase_texts}>
+                  <h3>{show.category}</h3>
+                  <p>{show.price}</p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <Footer />
     </div>
   );
 };

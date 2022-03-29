@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import classes from "./Nav.module.css";
+import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
   const [store, setStore] = useState(false);
 
-  const handleStoreClick = (e) => {
-    e.prevendDefault();
+  let history = useNavigate();
 
-    setStore((prev) => !prev);
+  const handleStoreClick = (e) => {
+    history("/showcase");
+
+    console.log("store clicked");
   };
 
   return (
@@ -15,13 +18,11 @@ const Nav = () => {
       <h2>Wearables</h2>
       <ul className={classes.nav_ul}>
         <li>
-          <a onClick={handleStoreClick} href="#category">
-            Category
-          </a>
+          <a href="#category">Category</a>
         </li>
 
-        <li>
-          <a href="#store">Store</a>{" "}
+        <li onClick={handleStoreClick}>
+          <a href="#">Store</a>{" "}
         </li>
         <li>
           <a href="#cart">Cart</a>{" "}

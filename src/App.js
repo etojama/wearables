@@ -1,14 +1,19 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Main from "./components/Main";
-import Nav from "./components/Nav";
-// import Showcase from "./components/Showcase";
+import Showcase from "./components/Showcase";
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Main />
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />}></Route>
+      <Route path="/showcase" element={<Showcase />}></Route>
+    </Routes>
+
+    // <>
+    //   <Nav />
+    //   <Main />
+    // </>
   );
 }
 
