@@ -9,16 +9,42 @@
 
 .showcase {
   border: 2px solid rgb(248, 248, 248);
+  box-shadow: 0px 4px 3px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 4px 3px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 3px -2px rgba(0, 0, 0, 0.75);
 }
 
 .showcase_texts {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .showcase img {
+  cursor: pointer;
   width: 100%;
   height: 15rem;
   object-fit: cover;
+}
+
+.details {
+  margin: 2rem auto -0.5rem auto;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details input {
+  width: 70%;
+  height: 2.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.details input:focus {
+  outline-color: rgb(187, 113, 113);
 }

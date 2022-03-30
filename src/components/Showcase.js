@@ -12,6 +12,10 @@ const Showcase = () => {
   return (
     <div>
       <Nav />
+      <div className={classes.details}>
+        <h2>Make a pick</h2>
+        <input type="search" placeholder="Search" />
+      </div>
       <div className={classes.parent}>
         {showData.map((show) => {
           return (
