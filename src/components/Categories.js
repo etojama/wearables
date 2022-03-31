@@ -1,8 +1,14 @@
 import React from "react";
 import classes from "./Categories.module.css";
+import Nav from "./Nav";
 
 const Categories = () => {
-  return <div>Categories</div>;
+  return (
+    <div>
+      <Nav />
+      Categories
+    </div>
+  );
 };
 
 export default Categories;

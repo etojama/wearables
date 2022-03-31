@@ -24,7 +24,7 @@ const Main = () => {
           <img src={mens} alt="men" />
         </div>
 
-        <button>Explore Items</button>
+        <button className={classes.exploreb}>Explore Items</button>
 
         <div className={classes.sect}>
           <h3>We've got you sorted!</h3>
