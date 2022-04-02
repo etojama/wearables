@@ -7,8 +7,6 @@ import classes from "./Showcase.module.css";
 const Showcase = () => {
   const [showData, setShowData] = useState(data);
 
-  console.log(showData);
-
   return (
     <div>
       <Nav />

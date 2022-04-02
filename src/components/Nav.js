@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import classes from "./Nav.module.css";
+// import classes from "./Nav.module.css";
+import "./Nav.css";
 import { useNavigate } from "react-router-dom";
 import NavCartButton from "./NavCartButton";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const [store, setStore] = useState(false);
@@ -16,16 +17,15 @@ const Nav = () => {
   };
 
   return (
-    <div className={classes.nav}>
+    <div className="nav">
       <h2>Wearables</h2>
-      <ul className={classes.nav_ul}>
+      <ul className="nav_ul">
         <li>
-          {/* <a href="#category">Category</a> */}
-          <Link to="/category">Category</Link>
+          <NavLink to="/category">Category</NavLink>
         </li>
 
-        <li onClick={handleStoreClick}>
-          <a href="#">Store</a>{" "}
+        <li>
+          <NavLink to="/store">Store</NavLink>
         </li>
         <NavCartButton />
       </ul>

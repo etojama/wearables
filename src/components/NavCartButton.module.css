@@ -2,8 +2,8 @@
   cursor: pointer;
   font: inherit;
   border: none;
-  background-color: #e61515;
-  color: white;
+  color: #e61515;
+  background-color: white;
   padding: 0.75rem 3rem;
   display: flex;
   justify-content: space-around;
@@ -15,7 +15,10 @@
 
 .button:hover,
 .button:active {
-  background-color: #b31212;
+  /* background-color: #b31212; */
+  border: #e61515 1px solid;
+  /* color: #fff; */
+  fill: #e61515;
 }
 
 .icon {
@@ -30,6 +33,7 @@
   border-radius: 25px;
   margin-left: -0.5rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .button:hover .badge,

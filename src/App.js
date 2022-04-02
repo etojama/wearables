@@ -12,8 +12,9 @@ function App() {
       <Route path="/" element={<Main />}>
         <Route path="/cart" element={<Cart />}></Route>
       </Route>
-      <Route path="/showcase" element={<Showcase />}></Route>
+      {/* <Route path="/showcase" element={<Showcase />}></Route> */}
       <Route path="/category" element={<Categories />}></Route>
+      <Route path="/store" element={<Showcase />}></Route>
       <Route path="/products" element={<Products />}></Route>
     </Routes>
 
